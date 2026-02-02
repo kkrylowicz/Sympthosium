@@ -1,0 +1,394 @@
+/* Database.css */
+.database-content {
+    min-height: 100vh;
+    padding: 80px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+/* Title Section */
+.database-title-container {
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto 60px;
+    padding: 0 20px;
+}
+
+.database-title {
+    font-size: 90px;
+    font-weight: 900;
+    background: linear-gradient(to right, #000000 0%, #2B658E 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    margin: 0 0 30px 0; 
+    letter-spacing: 2px;
+}
+
+.database-subtitle {
+    font-size: 26px;
+    font-weight: 600;
+    color: #333;
+    margin: 0 0 25px 0;
+    line-height: 1.4;
+        
+}
+
+.database-title-description {
+    font-size: 20px;
+    line-height: 1.7;
+    font-weight: 500;
+    color: #555;
+    margin: 0 0 35px 0;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Structure Section */
+.database-structure-container {
+    background: linear-gradient(180deg, #FFFFFF 0%, #F5F9FB 100%);
+    border: 2.5px solid #D0E5F0;
+    border-radius: 20px;
+    padding: 40px 50px;
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.database-structure-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #000;
+    margin: 0 0 25px 0;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.database-structure-description {
+    font-size: 20px;
+    line-height: 1.7;
+    color: #555;
+    margin: 0;
+    text-align: center;
+    letter-spacing: 0px;
+}
+
+/* Patients Comparison Section */
+.database-patients-container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.database-patients-description {
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+    margin: 0 0 35px 0;
+    text-align: center;
+}
+
+.database-patinets-row {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    gap: 100px;
+    align-items: center;
+}
+
+.database-patient-container {
+    background: linear-gradient(135deg, #FFF5F0 0%, #FFE8DC 100%);
+    border: 2.5px solid #5E86A9;
+    border-radius: 20px;
+    padding: 30px 35px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.05);
+}
+
+.database-patient-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    margin: 0 0 12px 0;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.database-patient-disease {
+    font-size: 20px;
+    font-weight: 600;
+    color: #5E8AA5;
+    margin: 0 0 10px 0;
+    text-align: center;
+}
+
+.database-patient-symptoms {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #555;
+    margin: 0;
+    text-align: center;
+}
+
+.database-patients-difference {
+    font-size: 19px;
+    line-height: 1.6;
+    color: #333;
+    max-width: 280px;
+    text-align: center;
+    font-weight: 650;
+}
+
+/* Classification Section */
+.database-classification-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 80px auto;
+    padding: 0 20px;
+}
+
+.database-classification-title {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-align: left;
+    color: #1a2332;
+    text-align: center;
+}
+.classification-list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.classification-row {
+    display: grid;
+    gap: 80px;
+    align-items: flex-end;
+    grid-template-columns: 280px 1fr;
+    padding: 25px 30px;
+    background: transparent;
+    border: 1px bold #5E86A9;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03);
+}
+
+.classification-row:hover {
+    border-color: #5E8AA5;
+    box-shadow: 0 4px 15px rgba(94, 138, 165, 0.1);
+    transform: scale(1.05);
+}
+
+.class-left {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.dots-wrapper {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.dot {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.dot.filled {
+    background-color: #4A7B9D;
+}
+
+.dot.empty {
+    background-color: #D1E3EF;
+}
+
+.class-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    white-space: nowrap;
+    color: #1a2332;
+}
+
+.class-right {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: right;
+}
+
+.class-frequency {
+    font-size: 18px;
+    font-weight: 600;
+    color: #4A7B9D;
+    margin: 0;
+    line-height: 1.3;
+}
+
+.class-description {
+    font-size: 16px;
+    color: #5A6C7D;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.class-example {
+    font-size: 15px;
+    color: #8A9BAD;
+    font-style: italic;
+    margin: 0;
+    line-height: 1.4;
+}
+/* Diseases Section */
+.database-diseases-container {
+    max-width: 1400px;
+    margin: 80px auto;
+    padding: 0 40px;
+}
+
+.database-diseases-title {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    color: #1a2332;
+    text-align: center;
+}
+
+.our-team-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px 30px;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.our-team-box {
+    background: white;
+    padding: 35px 25px;
+    border-radius: 20px;
+    border: 2px solid #B8D4E6;
+    box-shadow: 0 4px 10px rgba(74, 123, 157, 0.15);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    min-height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.our-team-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 18px rgba(74, 123, 157, 0.25);
+}
+
+.our-team-box:nth-child(4),
+.our-team-box:nth-child(5) {
+    grid-column: span 1;
+}
+
+.box-icon-wrapper {
+    margin-bottom: 15px;
+}
+
+.box-icon img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.box-title {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: #1a2332;
+}
+
+.box-description {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    width: 100%;
+}
+
+.disease-item {
+    font-size: 14px;
+    color: #5A6C7D;
+    margin: 0;
+    line-height: 1.5;
+}
+
+/* Disclaimer Section */
+.database-disclaimer-container {
+    max-width: 1400px;
+    margin: 100px auto 60px;
+    padding: 0 40px;
+}
+
+.database-disclaimer-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.database-disclaimer-header img {
+    width: 28px;
+    height: 28px;
+}
+
+.database-disclaimer-title {
+    font-size: 42px;
+    font-weight: 700;
+    margin: 0;
+    color: #1a2332;
+}
+
+.database-disclaimer-line {
+    height: 1px;
+    background: #4A7B9D;
+    margin-bottom: 20px;
+    opacity: 0.3;
+}
+
+.database-disclaimer-description-container {
+    max-width: 1000px;
+}
+
+.database-disclaimer-description {
+    font-size: 20px;
+    color: #5A6C7D;
+    line-height: 1.7;
+    margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .classification-row {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .class-right {
+        text-align: left;
+    }
+    
+    .database-patinets-row {
+        grid-template-columns: 1fr;
+    }
+    
+    .database-patients-difference {
+        max-width: 100%;
+        text-align: left;
+    }
+    
+    .our-team-grid {
+        grid-template-columns: 1fr;
+    }
+}

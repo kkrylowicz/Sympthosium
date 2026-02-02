@@ -1,0 +1,323 @@
+/* About.css */
+.about-content {
+    min-height: 100vh;
+    padding: 80px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    margin-bottom: 200  px;
+}
+
+/* Hero Section */
+.about-page {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.Main-text-about {
+    font-size: 90px;
+    font-weight: 900;
+    background: linear-gradient(to right, #000000 0%, #2B658E 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    margin: 0 0 40px 0;
+    letter-spacing: 2px;
+    max-width: fit-content;
+
+}
+
+.title-description {
+    font-size: 28px;
+    font-weight: 600;
+    color: #333;
+    margin: 0 0 25px 0;
+    line-height: 1.4;
+}
+
+.about-description {
+    font-size: 20px;
+    line-height: 1.7;
+    font-weight: 500;
+    color: #555;
+    margin: 0 0 35px 0;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.symptom-analysis-button {
+    display: inline-block;
+    background-color: #f0dfd5;
+    border: 3px solid #000000;
+    border-radius: 50px;
+    padding: 15px 35px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.symptom-analysis-button:hover {
+    background-color: #5E8AA5;
+    transform: scale(1.05);
+}
+
+.symptom-analysis-text {
+    margin: 0;
+    font-size: px;
+    font-weight: 700;
+}
+
+.symptom-analysis-text a {
+    text-decoration: none;
+    color: #000;
+    transition: color 0.3s ease;
+}
+
+.symptom-analysis-button:hover .symptom-analysis-text a {
+    color: #fff;
+}
+
+/* Our Approach Section */
+.our-approach-section {
+    text-align: center;
+}
+
+.section-title {
+    font-size: 42px;
+    font-weight: 700;
+    color: #000;
+    margin: 0 0 10px 0;
+}
+
+.section-description {
+    font-size: 22px;
+    color: #666;
+    margin: 0 0 50px 0;
+}
+
+.approach-details {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.approach-box {
+    background: linear-gradient(180deg, #FFFFFF 0%, #F5F9FB 100%);
+    border: 2.5px solid #5E8AA5;
+    border-radius: 20px;
+    padding: 35px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.approach-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(94, 138, 165, 0.15);
+    border-color: #5E8AA5;
+}
+
+.approach-box .box-icon {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.approach-box .box-icon img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.approach-box .box-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    margin: 0 0 12px 0;
+    letter-spacing: 0.5px;
+}
+
+.approach-box .box-description {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.5;
+    margin: 0;
+    letter-spacing: 0px;
+}
+
+/* How It Works Section */
+.how-it-works-section {
+    text-align: center;
+}
+
+.how-it-works-container {
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.how-it-works-text {
+    flex: 1;
+}
+
+.how-it-works-steps {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.step-item {
+    display: flex;
+    gap: 25px;
+    align-items: flex-start;
+}
+
+.step-number {
+    width: 50px;
+    height: 50px;
+    border: 3px solid #000;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: 700;
+    color: #000;
+    flex-shrink: 0;
+    background: white;
+}
+
+.step-content {
+    flex: 1;
+}
+
+.step-title {
+    font-size: 22px;
+    font-weight: 700;
+    color: #000;
+    margin: 0 0 8px 0;
+}
+
+.step-description {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+    margin: 0;
+    font-weight: 500;
+}
+
+.how-it-works-image-container {
+    flex: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.how-it-works-image {
+    max-width: 100%;
+    height: auto;
+    width: 450px;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .about-content {
+        padding: 60px 60px;
+        gap: 80px;
+    }
+
+    .approach-details {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .how-it-works-container {
+        gap: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-content {
+        padding: 40px 30px;
+        gap: 60px;
+    }
+
+    .Main-text-about {
+        font-size: 48px;
+    }
+
+    .title-description {
+        font-size: 20px;
+    }
+
+    .section-title {
+        font-size: 32px;
+    }
+
+    .approach-details {
+        grid-template-columns: 1fr;
+    }
+
+    .how-it-works-container {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .how-it-works-image {
+        width: 280px;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-content {
+        padding: 30px 20px;
+        gap: 50px;
+    }
+
+    .Main-text-about {
+        font-size: 36px;
+    }
+
+    .title-description {
+        font-size: 18px;
+    }
+
+    .about-description {
+        font-size: 15px;
+    }
+
+    .section-title {
+        font-size: 28px;
+    }
+
+    .step-number {
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+    }
+
+    .step-title {
+        font-size: 18px;
+    }
+
+    .step-description {
+        font-size: 14px;
+    }
+}

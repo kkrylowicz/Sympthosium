@@ -1,0 +1,108 @@
+.footer {
+  display: grid;  
+  background: #FFFFFF;
+  padding: 20px 0 0 0;
+  max-width: 95%;
+  width: 95%;
+  justify-self: center;
+  overflow-x: hidden;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border-radius: 36px;
+  box-shadow: rgba(0, 0, 0, 0.1);
+  height: 170px;
+  opacity: 50%  ;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: left;
+  align-items: top;
+  padding: 0 40px 15px 40px;
+  max-width: 500px;
+  font-size: 20px;
+  margin-top: -1%;
+}
+
+.footer-logo {
+  height: 100px;
+  width: auto;
+  max-width: 200px;
+  margin-left: -10%;
+}
+
+.footer-line {
+  width: 90%;
+  height: 1px;
+  background-color: #000000;
+  margin: 0;
+  margin-left: 4%;
+}
+
+.footer-bottom {
+  background-color: #FFFFFF;
+  padding: 15px 40px;
+}
+
+.footer-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 500px;
+  flex-wrap: wrap;
+}
+
+.footer-links li {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.footer-links li img {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+
+.footer-links li span {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #1A1A1A;
+  line-height: 1.5;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .footer-top {
+    padding: 0 20px 20px 20px;
+  }
+
+  .footer-logo {
+    height: 50px;
+  }
+
+  .footer-bottom {
+    padding: 20px;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-links li span {
+    font-size: 13px;
+  }
+
+  .footer-links li img {
+    width: 18px;
+    height: 18px;
+  }
+}

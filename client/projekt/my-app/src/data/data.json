@@ -1,0 +1,263 @@
+[
+  {
+    "Disease": "Influenza",
+    "Description": "Seasonal influenza (flu) is a contagious acute respiratory infection caused by influenza viruses that spread easily from person to person. It usually presents with fever, cough, sore throat, and muscle aches, and can range from mild illness to severe disease. Annual vaccination is the most effective way to reduce complications and transmission.",
+    "Symptoms": "Fever, cough, fatigue, headache, muscle pain, chills, sore throat, runny nose.",
+    "Resources": [
+      "https://www.ncbi.nlm.nih.gov/books/NBK459363/",
+      "https://www.who.int/news-room/fact-sheets/detail/influenza-(seasonal)"
+    ]
+  },
+  {
+    "Disease": "Common Cold",
+    "Description": "Common colds are usually harmless and clear up on their own, though symptoms like a runny nose, sore throat, and cough can be uncomfortable and make you feel unwell. Most colds last one to two weeks, but a cough may linger for up to three weeks. Medication is usually unnecessary, and antibiotics don’t help because colds are caused by viruses, not bacteria.",
+    "Symptoms": "Cough, Fatigue, Headache, Sore Throat, Runny Nose, Sneezing",
+    "Resources": [
+      "https://www.ncbi.nlm.nih.gov/books/NBK279543/"
+    ]
+  },
+  {
+    "Disease":"Pneumonia",
+    "Description":"Pneumonia is a broad term for infections of the lung tissue caused by different organisms. Classifying pneumonia helps identify likely pathogens and guides effective treatment in both hospital and outpatient care. Good coordination and communication within the healthcare team are essential to improve patient outcomes.",
+    "Symptoms":"Fever, Cough, Fatigue, Nausea, Vomiting, Diarrhea, Chest Pain, Shortness of Breath, Chills, Confusion",
+    "Resources":[
+      "https://www.who.int/health-topics/pneumonia#tab=tab_1",
+      "https://www.ncbi.nlm.nih.gov/books/NBK526116/"
+    ]
+  },
+  {
+    "Disease":"Tuberculosis",
+    "Description":"Tuberculosis (TB) is a major global health challenge, with ongoing difficulties in diagnosis, treatment, and prevention. Although newer diagnostic tests and recently developed antibiotics have improved TB management, access and complex treatment regimens remain significant barriers. Effective TB control depends on strong public health systems and close collaboration among healthcare professionals.",
+    "Symptoms":"Fever, Cough, Fatigue, Chest Pain, Weight Loss, Night Sweats, Loss of Appetite",
+    "Resources":[
+      "https://www.who.int/news-room/fact-sheets/detail/tuberculosis",
+      "https://www.ncbi.nlm.nih.gov/books/NBK441916/"
+    ]
+  },
+  {
+    "Disease":"COVID-19",
+    "Description":"Coronavirus disease (COVID-19) is an infectious illness caused by the SARS-CoV-2 virus, most often leading to mild to moderate respiratory symptoms, though some people develop severe disease requiring medical care. Older adults and individuals with underlying health conditions are at higher risk of serious illness, but COVID-19 can affect people of any age. Prevention relies on vaccination, good hygiene, mask use, physical distancing, and awareness of how the virus spreads through respiratory droplets and aerosols.",
+    "Symptoms":"Fever, Cough, Fatigue, Headache, Nausea, Diarrhea, Shortness of Breath, Sore Throat, Loss of Appetite, Anosmia (loss of smell)",
+    "Resources":[
+      "https://www.who.int/health-topics/coronavirus#tab=tab_1",
+      "https://www.ncbi.nlm.nih.gov/books/NBK554776/"
+    ]
+  },
+  {
+    "Disease":"Asthma",
+    "Description":"Asthma is a chronic inflammatory airway disease causing recurrent shortness of breath, cough, and wheezing, diagnosed by variable airflow limitation on spirometry. Treatment focuses on stepwise, individualized control of symptoms and prevention of exacerbations through early intervention and patient education. Although asthma often begins in childhood and involves genetic and environmental factors, strategies to prevent persistent disease into adulthood remain limited.",
+    "Symptoms":"Cough, Shortness of Breath, Wheezing",
+    "Resources":[
+      "https://www.who.int/news-room/fact-sheets/detail/asthma",
+      "https://www.ncbi.nlm.nih.gov/books/NBK430901/"
+    ]
+  },
+  {
+    "Disease":"COPD",
+    "Description":"Chronic obstructive pulmonary disease (COPD) is a common lung condition marked by persistent airflow limitation and breathing difficulties, often referred to as emphysema or chronic bronchitis. It is mainly caused by smoking and air pollution, leading to symptoms such as chronic cough, phlegm production, shortness of breath, and fatigue, and is associated with increased risk of other health problems. Although COPD is not curable, symptoms can be managed with smoking cessation, reduced pollutant exposure, vaccinations, medications, oxygen therapy, and pulmonary rehabilitation.",
+    "Symptoms":"Cough, Fatigue, Shortness of Breath, Wheezing",
+    "Resources":[
+      "https://www.who.int/news-room/fact-sheets/detail/chronic-obstructive-pulmonary-disease-(copd)",
+      "https://www.ncbi.nlm.nih.gov/books/NBK559281/"
+    ]
+  },
+  {
+    "Disease":"Bronchitis",
+    "Description":"Bronchitis is a common respiratory infection affecting the lower airways, specifically the bronchi, and most often occurs as acute bronchitis in individuals without underlying COPD. It is characterized by a sudden onset of persistent cough, with or without sputum, caused by inflammation usually triggered by viral infections. Bronchitis is generally self-limiting and resolves on its own within 1 to 3 weeks.",
+    "Symptoms":"Cough, Fatigue, Shortness of Breath",
+    "Resources":[
+      "https://www.ncbi.nlm.nih.gov/books/NBK448067/"
+    ]
+  },
+  {
+    "Disease":"Emphysema",
+    "Description":"Pulmonary emphysema is a progressive form of chronic obstructive pulmonary disease (COPD) marked by persistent airflow limitation due to damage of the alveoli, most commonly from long-term exposure to smoking or environmental pollutants. Destruction of alveolar walls leads to air trapping and impaired gas exchange, causing symptoms such as shortness of breath, chronic cough, and reduced exercise tolerance. The condition significantly affects quality of life and requires comprehensive, long-term management.",
+    "Symptoms":"Cough, Fatigue, Shortness of Breath",
+    "Resources":[
+      "https://www.ncbi.nlm.nih.gov/books/NBK482217/"
+    ]
+  },
+  {
+    "Disease":"Lung Cancer",
+    "Description":"Lung cancer is a serious disease caused by uncontrolled growth of abnormal lung cells and is a leading cause of cancer-related death worldwide. It commonly presents with symptoms such as a persistent cough, chest pain, and shortness of breath, and includes two main types: non-small cell and small cell lung cancer. Smoking is the main risk factor, though environmental exposures, genetics, and chronic lung disease also contribute.",
+    "Symptoms":"Cough, Fatigue, Chest Pain, Shortness of Breath, Weight Loss",
+    "Resources":[
+      "https://www.who.int/news-room/fact-sheets/detail/lung-cancer",
+      "https://www.ncbi.nlm.nih.gov/books/NBK482357/"
+    ]
+  },
+  {
+    "Disease":"Hypertension",
+    "Description":"Hypertension, or high blood pressure, is a common condition defined as blood pressure of 140/90 mmHg or higher and can be serious if left untreated. It often has no symptoms, so regular blood pressure checks are essential, and risk factors include older age, genetics, obesity, inactivity, high salt intake, and excessive alcohol use. Management involves lifestyle changes such as a healthy diet and physical activity, with medications needed in some cases.",
+    "Symptoms":"Headache, Dizziness",
+    "Resources":[
+      "https://www.who.int/news-room/fact-sheets/detail/hypertension",
+      "https://www.ncbi.nlm.nih.gov/books/NBK539859/"
+    ]
+  },
+  {
+    "Disease":"Coronary Artery Disease",
+    "Description":"Coronary artery disease (CAD) is caused by atherosclerotic plaque buildup that limits blood flow and oxygen to the heart and is a leading cause of death worldwide. Diagnosis uses clinical evaluation and tests such as ECG, stress testing, and coronary angiography. Treatment includes lifestyle changes, medications, and in severe cases, revascularization procedures to prevent serious complications.",
+    "Symptoms":"Fatigue, Chest Pain, Shortness of Breath",
+    "Resources":[
+      "https://www.ncbi.nlm.nih.gov/books/NBK564304/"
+    ]
+  },
+  {
+    "Disease":"Heart Failure",
+    "Description":"Heart failure (HF), or congestive heart failure, is a clinical syndrome in which the heart cannot pump blood effectively due to structural or functional abnormalities, most commonly caused by ischemic heart disease. It is classified by left ventricular ejection fraction and clinical stage, with symptoms including shortness of breath, fatigue, and fluid retention. Effective management relies on accurate diagnosis, comprehensive evaluation, and coordinated interprofessional care to improve outcomes and quality of life.",
+    "Symptoms":"Cough, Fatigue, Shortness of Breath, Swelling",
+    "Resources":[
+      "https://www.ncbi.nlm.nih.gov/books/NBK430873/"
+    ]
+  },
+  {
+    "Disease":"Arrhythmia",
+    "Description":"Arrhythmias are a broad group of disorders involving abnormal heart rate or rhythm and are classified into bradyarrhythmias and tachyarrhythmias based on heart rate. They can be further categorized by their origin and conduction pathways and may present with symptoms ranging from none to sudden cardiac arrest. Many arrhythmias are paroxysmal, making their true prevalence difficult to determine.",
+    "Symptoms":"Shortness of Breath, Dizziness, Heart Palpitations",
+    "Resources":[
+      "https://www.ncbi.nlm.nih.gov/books/NBK558923/"
+    ]
+  },
+  {
+    "Disease":"Stroke ",
+    "Description":"Acute stroke is a medical emergency caused by sudden interruption of blood flow to the brain, most commonly due to ischemic occlusion, and remains a leading cause of death and disability worldwide. Rapid recognition, clinical assessment, and prompt imaging are essential to preserve brain tissue and limit long-term damage. Management focuses on early stabilization and timely reperfusion therapies such as intravenous thrombolysis and mechanical thrombectomy in eligible patients.",
+    "Symptoms":"Vision Problems, Confusion, Paralysis, Numbness, Difficulty Swallowing",
+    "Resources":[
+      "https://www.who.int/publications/i/item/9789290228134",
+      "https://www.ncbi.nlm.nih.gov/books/NBK499997/"
+    ]
+  },
+  {
+    "Disease":"Hepatitis B",
+    "Description":"Hepatitis B is a viral liver infection that can be acute or chronic and may lead to serious complications such as cirrhosis and liver cancer. It spreads through contact with infected body fluids, including from mother to child at birth, and remains a major global health problem, particularly in the Western Pacific and African regions. Hepatitis B is preventable with a safe and highly effective vaccine, usually given shortly after birth.",
+    "Symptoms":"Fever, Fatigue, Abdominal Pain, Jaundice, Dark Urine",
+    "Resources":[
+      "https://www.who.int/news-room/fact-sheets/detail/hepatitis-b",
+      "https://www.ncbi.nlm.nih.gov/books/NBK555945/"
+    ]
+  },
+  {
+    "Disease":"Hepatitis C",
+    "Description":"Hepatitis C is a blood-borne viral infection of the liver that can cause acute or chronic disease and may lead to serious liver damage. It is mainly transmitted through contact with infected blood, such as unsafe medical procedures or sharing needles, and is often asymptomatic in the early stages. Although no vaccine exists, effective antiviral treatments can cure hepatitis C, and early diagnosis greatly reduces the risk of cirrhosis and long-term complications.",
+    "Symptoms":"Fatigue, Abdominal Pain, Jaundice, Itching",
+    "Resources":[
+      "https://www.who.int/news-room/fact-sheets/detail/hepatitis-c",
+      "https://www.ncbi.nlm.nih.gov/books/NBK430897/"
+    ]
+  },
+  {
+    "Disease":"Migraine",
+    "Description":"Migraine is a genetically influenced neurological disorder characterized by recurrent attacks of moderate to severe, usually unilateral headache, often accompanied by nausea and sensitivity to light and sound. Attacks can last from hours to days, are frequently triggered by factors such as stress or hormonal changes, and most commonly occur without aura. Diagnosis is based on clinical criteria, and management includes acute treatment, preventive therapies, and individualized lifestyle modifications.",
+    "Symptoms":"Headache, Nausea, Vomiting",
+    "Resources":[
+      "https://www.who.int/news-room/fact-sheets/detail/headache-disorders",
+      "https://www.ncbi.nlm.nih.gov/books/NBK560787/"
+    ]
+  },
+  {
+    "Disease":"Meningitis",
+    "Description":"Meningitis is a serious inflammation of the membranes surrounding the brain and spinal cord that requires urgent medical care due to its high risk of death and long-term complications. Bacterial meningitis is the most severe form, commonly caused by Neisseria meningitidis, Streptococcus pneumoniae, Haemophilus influenzae, and Streptococcus agalactiae, though viruses, fungi, and parasites can also cause the disease.",
+    "Symptoms":"Fever, Headache, Confusion, Seizures, Neck Stiffness",
+    "Resources":[
+      "https://www.who.int/news-room/fact-sheets/detail/meningitis",
+      "https://www.ncbi.nlm.nih.gov/books/NBK459360/"
+    ]
+  },
+  {
+    "Disease":"Anemia",
+    "Description":"Anaemia is a condition marked by low red blood cell count or haemoglobin levels, reducing the blood’s ability to carry oxygen, and it mainly affects women and children. It can impair child development and cause complications in pregnancy and is most commonly caused by iron deficiency, though infections, chronic disease, and malaria also contribute. Anaemia is both preventable and treatable.",
+    "Symptoms":"Fatigue, Shortness of Breath, Dizziness",
+    "Resources":[
+      "https://www.who.int/news-room/fact-sheets/detail/anaemia",
+      "https://www.ncbi.nlm.nih.gov/books/NBK499994/"
+    ]
+  },
+  {
+    "Disease":"Diabetes Type 1",
+    "Description":"Type 1 diabetes is an autoimmune disease caused by destruction of insulin-producing pancreatic β-cells, leading to absolute insulin deficiency and requiring lifelong insulin therapy. Without insulin, patients are at risk of severe hyperglycemia and life-threatening diabetic ketoacidosis. Management relies on insulin replacement along with regular glucose monitoring, patient education, and lifestyle and dietary support.",
+    "Symptoms":"Fatigue, Weight Loss, Increased Thirst, Increased Urination",
+    "Resources":[
+      "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+      "https://www.ncbi.nlm.nih.gov/books/NBK507713/"
+    ]
+  },
+  {
+    "Disease":"Diabetes Type 2",
+    "Description":"Type 2 diabetes is a metabolic disorder in which blood sugar levels rise because the body becomes resistant to insulin, even though insulin is still produced. It is the most common form of diabetes, accounting for about 90% of cases, and is often diagnosed later in life. Disease severity varies, with some people achieving good control while others develop long-term complications.",
+    "Symptoms":"Fatigue, Weight Gain, Increased Thirst, Increased Urination",
+    "Resources":[
+      "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+      "https://www.ncbi.nlm.nih.gov/books/NBK279509/"
+    ]
+  },
+  {
+    "Disease":"Hypothyroidism",
+    "Description":"Hypothyroidism is a condition caused by low thyroid hormone levels, most often due to primary thyroid gland failure from autoimmune thyroiditis or iodine deficiency, while central hypothyroidism from pituitary or hypothalamic dysfunction is rare. Treatment of all forms relies on thyroid hormone replacement, which is essential to prevent increased morbidity and mortality if left untreated.",
+    "Symptoms":"Fatigue, Weight Gain, Hair Loss, Cold Intolerance",
+    "Resources":[
+      "https://www.ncbi.nlm.nih.gov/books/NBK519536/"
+    ]
+  },
+  {
+    "Disease":"Hyperthyroidism",
+    "Description":"Hyperthyroidism is a common thyroid disorder caused by excessive production of thyroid hormones and may be overt or subclinical. Overt hyperthyroidism is defined by suppressed TSH levels with elevated T3 and/or T4 levels. Because the condition is associated with significant short- and long-term morbidity, early diagnosis and timely treatment are essential.",
+    "Symptoms":"Weight Loss, Heart Palpitations, Anxiety, Heat Intolerance",
+    "Resources":[
+      "https://www.ncbi.nlm.nih.gov/books/NBK537053/"
+    ]
+  },
+  {
+    "Disease":"Rheumatoid Arthritis",
+    "Description":"Rheumatoid arthritis is a chronic inflammatory disease that mainly affects the joints, causing pain, stiffness, swelling, and reduced mobility. If left untreated, it can lead to joint destruction and complications involving the heart, lungs, or nervous system. Early diagnosis and treatment can control symptoms and slow disease progression, with medications, rehabilitation, and surgery used when needed.",
+    "Symptoms":"Fever, Fatigue, Joint Pain, Swelling",
+    "Resources":[
+      "https://www.who.int/news-room/fact-sheets/detail/rheumatoid-arthritis",
+      "https://www.ncbi.nlm.nih.gov/books/NBK441999/"
+    ]
+  },
+  {
+    "Disease":"Osteoarthritis",
+    "Description":"Osteoarthritis is a degenerative joint disease that causes pain, stiffness, and reduced mobility, most commonly affecting the knees, hips, spine, and hands. It involves the entire joint and is associated with factors such as aging, joint injury, and excess weight, with higher prevalence in women. Management focuses on exercise, weight control, and healthy lifestyle measures, with joint replacement surgery considered in severe cases to relieve pain and restore function.",
+    "Symptoms":"Joint Pain",
+    "Resources":[
+      "https://www.who.int/news-room/fact-sheets/detail/osteoarthritis",
+      "https://www.ncbi.nlm.nih.gov/books/NBK482326/"
+    ]
+  },
+  {
+    "Disease":"Lupus",
+    "Description":"Systemic lupus erythematosus (SLE) is a systemic autoimmune disease with multisystem involvement and is associated with significant morbidity and mortality. Genetic, immunological, endocrine, and environmental factors influence the loss of immunological tolerance against self-antigens leading to the formation of pathogenic autoantibodies that cause tissue damage through multiple mechanisms.",
+    "Symptoms":"Fever, Fatigue, Rash, Joint Pain ",
+    "Resources":[
+      "https://www.ncbi.nlm.nih.gov/books/NBK535405/"
+    ]
+  },
+  {
+    "Disease":"Multiple Sclerosis",
+    "Description":"Multiple sclerosis is a chronic autoimmune disease of the central nervous system that causes inflammation, demyelination, and varied neurological symptoms. Early diagnosis allows timely use of disease-modifying therapies to reduce relapses, limit disability, and manage symptoms through an interdisciplinary approach.",
+    "Symptoms":"Fatigue, Vision Problems, Numbness, Tingling, Balance Issues",
+    "Resources":[
+      "https://www.who.int/news-room/fact-sheets/detail/multiple-sclerosis",
+      "https://www.ncbi.nlm.nih.gov/books/NBK499849/"
+    ]
+  },
+  {
+    "Disease":"Parkinson's Disease",
+    "Description":"Parkinson disease is a progressive neurological disorder that affects movement and can also impact mental health, sleep, and pain. Although there is no cure, medications and therapies can help manage symptoms such as tremors, muscle stiffness, and speech difficulties. The disease mainly affects older adults, occurs more often in men, and is associated with increased disability and risk of dementia.",
+    "Symptoms":"Balance Issues, Memory Loss",
+    "Resources":[
+      "https://www.who.int/news-room/fact-sheets/detail/parkinson-disease",
+      "https://www.ncbi.nlm.nih.gov/books/NBK470193/"
+    ]
+  },
+  {
+    "Disease":"Alzheimer's",
+    "Description":"Alzheimer is a progressive syndrome caused by diseases that damage brain cells, leading to declining memory, thinking, behavior, and ability to perform daily activities. It mainly affects older adults and is associated with risk factors such as hypertension, diabetes, obesity, smoking, physical inactivity, and social isolation. Alzheimer has wide-ranging physical, psychological, social, and economic impacts on individuals, families, and society, often compounded by stigma and delayed diagnosis.",
+    "Symptoms":"Confusion, Memory Loss",
+    "Resources":[
+      "https://www.who.int/news-room/fact-sheets/detail/dementia",
+      "https://www.ncbi.nlm.nih.gov/books/NBK499922/"
+    ]
+  }
+]

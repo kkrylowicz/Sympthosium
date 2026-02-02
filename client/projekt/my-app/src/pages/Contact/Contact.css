@@ -1,0 +1,224 @@
+/* Contact.css */
+.contact-content {
+    min-height: 100vh;
+    padding: 60px 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    max-width: 1500px;
+    margin-left: 200px;
+}
+
+/* Contact Card Section */
+.contact-card {
+    position: relative;
+    background: linear-gradient(180deg, #FFFFFF 0%, #E8F4F8 100%);
+    border: 3px solid #5E8AA5;
+    border-radius: 30px;
+    padding: 50px 60px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+
+
+.contact-page-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    position: relative;
+}
+
+.Rectangle {
+    position: absolute;
+    left: -20px;
+    top: -10px;
+    width: 200px;
+    height: auto;
+    z-index: 0;
+}
+
+.contact-page-text {
+    flex: 1;
+    max-width: 500px;
+    z-index: 1;
+    position: relative;
+}
+
+.contact-subtitle {
+    font-size: 42px;
+    font-weight: 700;
+    color: #000;
+    margin: 0 0 20px 0;
+    line-height: 1.2;
+    background-color: #B8D4E6;
+    padding: 15px 20px;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+.contact-subtitle span {
+    display: block;
+}
+
+.contact-description {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    max-width: 500px;
+}
+
+.contact-page-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.contact-page-image img {
+    max-width: 100%;
+    height: auto;
+    width: 280px;
+    margin-right: -25%;
+}
+
+/* Our Team Section */
+.our-team {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.our-team-title {
+    font-size: 42px;
+    font-weight: 700;
+    color: #000;
+    margin: 0 0 8px 0;
+}
+
+.our-team-subtitle {
+    font-size: 18px;
+    color: #000000;
+    margin: 0;
+    font-weight: bold;
+}
+
+.our-team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.our-team-box {
+    background: linear-gradient(180deg, #FFFFFF 0%, #F5F9FB 100%);
+    border: 2px solid #D0E5F0;
+    border-radius: 25px;
+    padding: 40px 30px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.our-team-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(94, 138, 165, 0.15);
+    border-color: #5E8AA5;
+}
+
+.box-icon-wrapper {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #5E8AA5 0%, #7BA5C0 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.box-icon {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: white;
+}
+
+.box-icon img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.box-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    margin: 0 0 8px 0;
+    letter-spacing: 0.5px;
+}
+
+.box-description {
+    font-size: 18px;
+    color: #666;
+    margin: 0;
+    font-weight: 200;
+
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .contact-content {
+        padding: 40px 50px;
+        gap: 60px;
+    }
+
+    .contact-page-container {
+        flex-direction: column;
+    }
+
+    .contact-page-text {
+        max-width: 100%;
+    }
+
+    .our-team-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-content {
+        padding: 30px 20px;
+        gap: 40px;
+    }
+
+    .contact-card {
+        padding: 30px 25px;
+    }
+
+    .contact-subtitle {
+        font-size: 32px;
+    }
+
+    .our-team-title {
+        font-size: 32px;
+    }
+
+    .our-team-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .Rectangle {
+        width: 150px;
+    }
+
+}

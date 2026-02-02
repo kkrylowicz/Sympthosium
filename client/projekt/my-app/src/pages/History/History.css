@@ -1,0 +1,135 @@
+/* History.css */
+
+.history-container {
+    max-width: 1200px;
+    margin: 100px auto 50px;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.history-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.history-table {
+    width: 100%;
+    border-collapse: separate; /* Ważne dla border-radius */
+    border-spacing: 0;
+    background-color: #fff;
+    border-radius: 25px; /* Zaokrąglenie całej tabeli */
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    border: 1px solid #8ecae6; /* Jasna ramka */
+}
+
+/* Nagłówek tabeli - Niebieski */
+.history-table thead tr {
+    background: linear-gradient(#FFFFFF 0%, #5E8AA5 91%);;
+}
+
+.history-table th {
+    padding: 15px;
+    text-align: left;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 0.9rem;
+    border-bottom: 2px solid #fff;
+}
+
+.history-table td {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    vertical-align: middle;
+    color: #333;
+}
+
+/* Wycentrowanie tekstu w konkretnych kolumnach */
+.text-center {
+    text-align: center !important;
+}
+
+.fw-bold {
+    font-weight: bold;
+}
+
+.date-cell {
+    font-size: 0.9rem;
+    color: #555;
+    white-space: pre-line; /* Pozwala na łamanie linii w dacie */
+}
+
+/* Checkbox powiększony */
+.confirm-checkbox {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    accent-color: #4886c9;
+}
+
+/* Input edycji */
+.edit-input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
+
+.note-text {
+    font-style: italic;
+    color: #555;
+}
+
+/* Przyciski */
+.action-cell {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.action-btn {
+    padding: 6px 16px;
+    border: 1px solid #ccc;
+    border-radius: 20px; /* "Pastylki" */
+    font-size: 0.85rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.btn-edit:hover {
+    background-color: #f0f0f0;
+    transform: translate3d(0px, -3px, 0px);
+}
+
+.btn-save {
+    background-color: #87CEEB;
+    border-color: #87CEEB;
+    color: white;
+}
+
+.btn-save:hover {
+    background-color: #5fb8e0;
+    transform: translate3d(0px, -3px, 0px);
+}
+
+.btn-delete {
+    background-color: #7d96a6; /* Szaro-niebieski jak na zdjęciu */
+    color: white;
+    border-color: #7d96a6;
+}
+
+.btn-delete:hover {
+    background-color: #5a7080;
+    transform: translate3d(0px, -3px, 0px);
+}
+
+/* Ostatni wiersz bez linii na dole */
+.history-table tbody tr:last-child td {
+    border-bottom: none;
+}
