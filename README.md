@@ -363,15 +363,6 @@ The machine learning model's predictions are based on statistical patterns and m
 
 ---
 
-## 👥 Authors
-
-- **Anna Kowalska** - Frontend - [aakowalska](https://github.com/aakowalska)
-- **Kacper Dreze** - Frontend - [kdreze](https://github.com/kdreze)
-- **Kacper Janczak** - Frontend - [janczqk](https://github.com/janczqk)
-- **Kuba Kryłowicz** - Backend - [kkrylowicz](https://github.com/kkrylowicz)
-
----
-
 ## 🙏 Acknowledgments
 
 - Medical symptom data compiled from public health resources
