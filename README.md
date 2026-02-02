@@ -147,6 +147,7 @@ pip install fastapi uvicorn scikit-learn pandas numpy
 
 # Run the FastAPI server
 python -m uvicorn main:app --reload --port 8000
+Change the command if deploying externally
 ```
 
 The backend will be available at `http://localhost:8000`
@@ -170,8 +171,8 @@ The frontend will be available at `http://localhost:5173`
 
 ```bash
 # Clone the repository
-git clone https://github.com/kdreze/sympthosium.git
-cd sympthosium
+git clone https://github.com/kkrylowicz/Sympthosium.git
+cd Sympthosium
 
 # Start backend (Terminal 1)
 cd server
