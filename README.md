@@ -372,12 +372,6 @@ The machine learning model's predictions are based on statistical patterns and m
 
 ---
 
-## 📧 Contact
-
-Project Link: [https://github.com/kdreze/sympthosium](https://github.com/kdreze/sympthosium)
-
----
-
 <div align="center">
 Made with ❤️ for educational purposes
 </div>
